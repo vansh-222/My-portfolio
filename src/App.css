@@ -9,8 +9,8 @@ body {
   width: 100%;
   max-width: 1200px;  
   margin: 0 auto;
-  padding-left: 2rem; /* Add left padding */
-  padding-right: 2rem; /* Add right padding */
+  padding-left: 4rem; 
+  padding-right: 4rem; 
 }
 
 /* Navbar */
