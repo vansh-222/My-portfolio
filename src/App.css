@@ -3,16 +3,13 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #f9fafc;
   color: #333;
- 
 }
 
 .container {
   width: 100%;
-  max-width: 1200px;  /* or whatever suits you */
+  max-width: 1200px;  
   margin: 0 auto;
 }
-
-
 
 /* Navbar */
 .navbar {
