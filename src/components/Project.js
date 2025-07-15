@@ -18,7 +18,7 @@ export default function Project() {
           <div className="project-card">
             <img src="/photo-3.png" alt="Weather Extension" className="project-img" />
             <h3>Weather Extension</h3>
-            <p>Browser extension showing real-time weather data using API.</p>
+            <p>Browser extension showing real-time data using API.</p>
             <a href="https://github.com/vansh-222/summer-school-online-day-5" target="_blank" rel="noopener noreferrer">
               View Project Code
             </a>
