@@ -1,17 +1,23 @@
 // src/components/Hero.js
-import React from "react";
 
 export default function Hero() {
   return (
-    <section className="hero">
-      <img
-        src="/Photo.jpeg"
-        alt="Vansh Kumar"
-        className="Photo-img"
-      />
-      <h1>Hi, I'm Vansh Kumar</h1>
-      <p>Web Developer | Designer | Student</p>
-      <a href="#projects">View My Work</a>
+    <section id="hero" className="hero">
+      <div className="container">
+        <div className="hero-content">
+          <div className="hero-text">
+            <h1>Hi, I'm Vansh Kumar</h1>
+            <p>Expert Visual Designer & Web Developer</p>
+            <div className="hero-buttons">
+              <a href="#contact" className="btn btn-primary">Know More</a>
+              <a href="#projects" className="btn btn-secondary">See My Projects</a>
+            </div>
+          </div>
+          <div className="hero-image">
+            <img src="Photo.jpeg" alt="Vansh Kumar" />
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
