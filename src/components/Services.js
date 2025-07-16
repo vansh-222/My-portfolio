@@ -11,8 +11,8 @@ export default function Services() {
           </div>
           <div className="service-card">
             <div className="icon">📊</div>
-            <h3>Dashboard Design</h3>
-            <p>Functional dashboards for data and insights.</p>
+            <h3>Portfolio Websites</h3>
+            <p>Simple and ready to use Portfolio.</p>
           </div>
           <div className="service-card">
             <div className="icon">📱</div>

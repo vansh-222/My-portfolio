@@ -1,4 +1,5 @@
 // src/components/About.js
+import { SiJavascript, SiReact, SiNodedotjs, SiMongodb } from "react-icons/si";
 
 export default function About() {
   return (
@@ -9,9 +10,10 @@ export default function About() {
             <div>
               <h2>About Me</h2>
               <p>
-                Hi! I’m <strong>Vansh Kumar</strong>, a passionate web developer and designer. I love
-                building clean, modern, and functional websites that solve real problems.
-                My goal is to become a full-stack developer and help people through technology.
+                Hi! I’m <strong>Vansh Kumar</strong> — a passionate and detail-oriented web developer and UI/UX designer focused on building modern, responsive, and user-first digital experiences.
+                I specialize in crafting clean, scalable code using technologies like JavaScript, React.js, Node.js, and MongoDB. I don’t just build websites — I create digital solutions that solve real-world problems and deliver seamless user experiences across devices.
+
+                My goal is to grow into a skilled full-stack developer, continuously learning new tools and trends, and using technology as a medium to innovate, connect, and empower. Whether it’s front-end design or back-end logic, I thrive on turning ideas into elegant, functional, and impactful web applications.
               </p>
 
               <div className="highlight-boxes">
@@ -29,14 +31,27 @@ export default function About() {
 
           <h3>My Skills</h3>
           <ul className="skills-list">
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>MongoDB</li>
+            <li>
+              <SiJavascript size={20} color="#f0db4f" style={{ marginRight: "8px" }} />
+              JavaScript
+            </li>
+            <li>
+              <SiReact size={20} color="#61DBFB" style={{ marginRight: "8px" }} />
+              React.js
+            </li>
+            <li>
+              <SiNodedotjs size={20} color="#3C873A" style={{ marginRight: "8px" }} />
+              Node.js
+            </li>
+            <li>
+              <SiMongodb size={20} color="#4DB33D" style={{ marginRight: "8px" }} />
+              MongoDB
+            </li>
           </ul>
         </div>
       </div>
     </section>
   );
 }
+
 

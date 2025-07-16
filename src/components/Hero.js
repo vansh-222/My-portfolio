@@ -14,7 +14,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-image">
-            <img src="Photo.jpeg" alt="Vansh Kumar" />
+            <img src="photo-6.png" alt="Vansh Kumar" />
           </div>
         </div>
       </div>
