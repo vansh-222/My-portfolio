@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-logo">Vansh Kumar</div>
+        <div className="navbar-logo">Portfolio</div>
 
         <div className="navbar-right">
           <ul className="navbar-links">

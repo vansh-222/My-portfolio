@@ -1,4 +1,4 @@
-// src/components/About.js
+
 import { SiJavascript, SiReact, SiNodedotjs, SiMongodb } from "react-icons/si";
 
 export default function About() {

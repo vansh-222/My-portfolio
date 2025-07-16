@@ -1,4 +1,3 @@
-// src/components/Hero.js
 
 export default function Hero() {
   return (
@@ -13,9 +12,10 @@ export default function Hero() {
               <a href="#projects" className="btn btn-secondary">See My Projects</a>
             </div>
           </div>
-          <div className="hero-image">
-            <img src="photo-6.png" alt="Vansh Kumar" />
-          </div>
+         <div class="hero-image-container">
+  <img src="photo-6.png" alt="Vansh Kumar"/>
+</div>
+
         </div>
       </div>
     </section>
