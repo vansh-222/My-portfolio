@@ -448,7 +448,7 @@ transition: color 0.3s ease;
 ====================== */
 
 @media (max-width: 768px) {
-  /* Navbar */
+  /* Navbar structure */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -459,12 +459,29 @@ transition: color 0.3s ease;
     align-items: flex-start;
   }
 
+  /* Hamburger toggle button */
+  .navbar-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+
+  /* Hide nav by default on mobile */
   .navbar-right {
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
     margin-top: 1rem;
     width: 100%;
+  }
+
+  /* Show nav when toggle is active */
+  .navbar-right.show {
+    display: flex;
   }
 
   .navbar-links {
@@ -475,6 +492,7 @@ transition: color 0.3s ease;
 
   .navbar-links li a {
     display: block;
+    width: 100%;
     padding: 0.5rem 0;
   }
 
@@ -482,16 +500,6 @@ transition: color 0.3s ease;
     margin-top: 0.5rem;
   }
 
-   .navbar-toggle {
-    display: block;
-  }
-
-
-
-  .navbar-right.show {
-    display: flex;
-  }
-}
 
   /* Hero Section */
   .hero-content {
@@ -532,7 +540,7 @@ transition: color 0.3s ease;
   .skills-list {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
-
+}
 
 @media (max-width: 480px) {
   /* Hero Text */
