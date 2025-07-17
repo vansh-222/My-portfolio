@@ -82,6 +82,14 @@ transition: color 0.3s ease;
   transition: background 0.3s ease;
 }
 
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 
 /* Hero Section */
 .hero {
@@ -474,6 +482,17 @@ transition: color 0.3s ease;
     margin-top: 0.5rem;
   }
 
+   .navbar-toggle {
+    display: block;
+  }
+
+
+
+  .navbar-right.show {
+    display: flex;
+  }
+}
+
   /* Hero Section */
   .hero-content {
     flex-direction: column;
@@ -513,7 +532,7 @@ transition: color 0.3s ease;
   .skills-list {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
-}
+
 
 @media (max-width: 480px) {
   /* Hero Text */

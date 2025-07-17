@@ -4,6 +4,10 @@ export default function Navbar() {
       <div className="navbar-container">
         <div className="navbar-logo">Portfolio</div>
 
+       <button class="navbar-toggle" aria-label="Toggle Menu">
+    ☰
+  </button>
+
         <div className="navbar-right">
           <ul className="navbar-links">
             <li><a href="#hero">Home</a></li>
