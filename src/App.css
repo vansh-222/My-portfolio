@@ -443,12 +443,9 @@ transition: color 0.3s ease;
   font-size: 0.95rem;
 }
 
-/* ======================
-   Mobile Responsive Design
-====================== */
+
 
 @media (max-width: 768px) {
-  /* Navbar structure */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -459,7 +456,6 @@ transition: color 0.3s ease;
     align-items: flex-start;
   }
 
-  /* Hamburger toggle button */
   .navbar-toggle {
     display: block;
     background: none;
@@ -469,7 +465,6 @@ transition: color 0.3s ease;
     margin-top: 0.5rem;
   }
 
-  /* Hide nav by default on mobile */
   .navbar-right {
     display: none;
     flex-direction: column;
@@ -479,7 +474,6 @@ transition: color 0.3s ease;
     width: 100%;
   }
 
-  /* Show nav when toggle is active */
   .navbar-right.show {
     display: flex;
   }
@@ -500,8 +494,6 @@ transition: color 0.3s ease;
     margin-top: 0.5rem;
   }
 
-
-  /* Hero Section */
   .hero-content {
     flex-direction: column;
     text-align: center;
@@ -526,7 +518,6 @@ transition: color 0.3s ease;
     margin: 0.5rem auto;
   }
 
-  /* About Section */
   .about-top {
     flex-direction: column;
     text-align: center;
@@ -543,7 +534,6 @@ transition: color 0.3s ease;
 }
 
 @media (max-width: 480px) {
-  /* Hero Text */
   .hero-text h1 {
     font-size: 1.6rem;
   }
@@ -557,7 +547,6 @@ transition: color 0.3s ease;
     height: 160px;
   }
 
-  /* Projects */
   .project-list {
     flex-direction: column;
     align-items: center;
@@ -567,7 +556,6 @@ transition: color 0.3s ease;
     width: 90%;
   }
 
-  /* Contact Form */
   .contact-form {
     padding: 0 1rem;
   }
